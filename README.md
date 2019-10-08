@@ -8,6 +8,7 @@ Uses MPU6050 and I2C libraries by Jeff Rowberg at: https://github.com/jrowberg/i
 Transformation from uncalibrated to calibrated reading: **a_calibrated** = **NS(a_uncal - b)** see the report for details 
 
 Steps to get SEM parameters:
+
     1. Place the MPU6050 securely in the calibration cube  (design under ./3D)
     2. Connect the MPU6050 to an Arduino UNO using I2C and wait 5 - 15 min for it to warm up
     3. Load the calibration script in Arduino/src/MPU6050_calibrate and open up a serial monitor
