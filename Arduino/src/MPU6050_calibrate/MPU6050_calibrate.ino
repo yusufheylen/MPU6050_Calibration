@@ -1,4 +1,3 @@
-#include <MemoryFree.h>
 #include "I2Cdev.h"
 #include "MPU6050.h"
 
@@ -41,7 +40,6 @@ typedef struct
 
 MPU6050 imu;
 int16_t raw_Ax, raw_Ay, raw_Az;
-// double avg_Ax, avg_Ay, avg_Az; 
 String input = "";
 uint8_t n;
 
